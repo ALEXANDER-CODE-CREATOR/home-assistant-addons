@@ -1,0 +1,14 @@
+{
+  "name": "XPT2046 Display",
+  "version": "1.0",
+  "slug": "xpt2046_display",
+  "description": "Custom add-on for XPT2046 Display",
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "arch": ["armhf", "armv7", "aarch64"],
+  "host_network": true,
+  "privileged": ["SYS_RAWIO", "SYS_MODULE", "SYS_TIME", "NET_ADMIN"],
+  "full_access": true
+}
